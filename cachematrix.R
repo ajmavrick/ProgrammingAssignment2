@@ -31,8 +31,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## The cacheSolve function checks if an inverse of x has already been calculated and uses  has.
-## the cached value if it has. If not the inverse if calculed.
+## The cacheSolve function checks if an inverse of x has already been calculated and uses
+## the cached value if it has, if not, the inverse is calculated.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
